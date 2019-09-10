@@ -25,3 +25,24 @@ h5,
 h6 {
   color: #d14348;
   font-family: "Bree Serif", Helvetica, sans-serif; }
+
+/*Media Content*/
+.media {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+  .media .item {
+    margin-bottom: 20px;
+    border-top: 1px dotted #d14348;
+    padding-top: 10px; }
+  .media .head {
+    margin: 0;
+    padding: 0;
+    color: #0076a3;
+    font-size: 2rem; }
+  .media p {
+    float: left;
+    margin-right: 10px; }
+  .media a {
+    text-decoration: none;
+    color: #022933; }

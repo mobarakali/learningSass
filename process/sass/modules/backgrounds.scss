@@ -24,5 +24,10 @@
 
 .jumbotron {
     // background: $darkblue;
-    @include backImage('../images/water.jpg', 50vh);
+    @include backImage('../images/water.jpg');
+}
+
+.bridge {
+    // background: $darkblue;
+    @include backImage('../images/bridge.jpg', 50vw, center top);
 }
